@@ -1,0 +1,49 @@
+@import "../../assets/styles/shared.scss";
+
+.carousel {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 90px;
+  .swiper {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .swiper-wrapper {
+    max-width: 1780px;
+    margin: 0 auto;
+  }
+  .carousel-title {
+    color: $white;
+    margin-bottom: 40px;
+  }
+  .carousel-item {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .item-image {
+    width: 100%;
+    position: relative;
+  }
+  .item-title {
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    padding: 16px 12px;
+    color: $white;
+  }
+  .item-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) 10%,
+      transparent
+    );
+  }
+}

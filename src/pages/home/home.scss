@@ -1,0 +1,21 @@
+@import "../../assets/styles/shared.scss";
+
+.home {
+  width: 100%;
+  overflow: hidden;
+  .copy-wrapper {
+    width: 90%;
+    max-width: 800px;
+    color: rgba($white,0.8);
+    position: absolute;
+    top: 35%;
+    a {
+      font-weight: 700;
+      color: rgba($white,1);
+    }
+  }
+
+  .home-title {
+    margin-bottom: 32px;
+  }
+}

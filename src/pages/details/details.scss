@@ -1,0 +1,15 @@
+@import "../../assets/styles/shared.scss";
+
+.details {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 900px;
+  .details-image {
+    width: 40%;
+  }
+  .details-wrapper {
+    color: $white;
+    padding: 0 20px;
+  }
+}

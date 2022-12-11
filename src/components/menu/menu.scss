@@ -1,0 +1,26 @@
+.menu {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  color: white;
+  padding: 15px 0;
+
+  .menu-items-wrapper {
+    display: flex;
+  }
+
+  .menu-items {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+
+    img{
+      height: 42px;
+      margin-right: 40px;
+    }
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+}
